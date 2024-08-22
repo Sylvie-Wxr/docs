@@ -1,5 +1,5 @@
 
-**A short description of the goals of the project:**
+### A short description of the goals of the project:<br>
 
 SkyWalking BanyanDB is an observability database designed to ingest, analyze, and store metrics, tracing, and logging data. 
 The goal of this project is to implement a built-in monitoring feature for the SkyWalking BanyanDB cluster. This built-in monitoring functionality can be set optionally through feature flags. 
@@ -10,9 +10,10 @@ For each node, show the following information:
 - CPU usage (percentage)
 - Memory usage (percentage)
 - Disk usage (percentage)
-- Ports (gRPC and HTTP)   
+- Ports (gRPC and HTTP)
+<br>
 
-**What you did:**
+### What you did:<br>
 I completed the built-in monitoring feature with the following steps: 
 - Meet with my mentor twice a week and created design tech design for self-observability 
 - Developed database functionalities (Internal group) to extract and store cluster metrics 
@@ -20,14 +21,34 @@ I completed the built-in monitoring feature with the following steps:
 - Created an overview page in the BanyanDB Web App to display the nodes status 
 - Implemented unit test and integration test for the built-in monitoring feature
 - Created documentation to explain the bulit-in monitoring feature
+<br>
 
-**The current state:**
-Completed
+### The current state:<br>
+Completed<br>
+<br>
 
-**What's left to do:**
-All works related to this project have been done, and if there are more requests in the future from the Apache SkyWalking community, I will also actively make contributions.
+### What's left to do:<br>
+All works related to this project have been done, and if there are more requests in the future from the Apache SkyWalking community, I will also actively make contributions.<br>
+<br>
 
-**What code got merged upstream:**
+### What code got merged upstream:<br>
+#### Before GSoC starts:
+- [UI] Default Time Range for Querying Data to Last 15 Minutes:
+https://github.com/apache/skywalking-banyandb/pull/397
+
+- [UI] Use BanyanDB Browser' Icon and Remove Unused Buttons:
+https://github.com/apache/skywalking-banyandb/pull/402
+
+- [UI] Fix default port in vite.config.js:
+https://github.com/apache/skywalking-banyandb/pull/410
+
+- Add Measure IndexRule and IndexRuleBinding to Measure Page:
+https://github.com/apache/skywalking-banyandb/pull/418
+
+- Add Top N Aggregation to web app:
+https://github.com/apache/skywalking-banyandb/pull/430
+
+#### During the GSoC coding period:
 - [GsoC][BanyanDB] Self-Observability: Create Internal Group:
 https://github.com/apache/skywalking-banyandb/pull/446
 
@@ -69,6 +90,7 @@ https://github.com/apache/skywalking-banyandb/pull/497
 
 - [GSoC][UI] Fix and show message when group is not exist and native is turned off:
 https://github.com/apache/skywalking-banyandb/pull/515
+<br>
 
-**Any challenges or important things you learned during the project.**
+### Any challenges or important things you learned during the project.<br>
 One significant challenge I faced during this project was that it required full-stack development, whereas my prior experience was primarily focused on front-end work before GSoC. Given that BanyanDB is a complex database, understanding the codebase initially felt overwhelming. However, I learned the importance of breaking down a complex project into smaller, manageable steps. By meeting with my mentor twice a week and completing small tasks incrementally, I gradually gained a better understanding of the codebase. After a few weeks, I had a clearer picture of the project and was eventually able to complete this challenging task successfully.
